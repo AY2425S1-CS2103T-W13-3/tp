@@ -233,13 +233,13 @@ with(this){return _c('p',[_c('strong',[_v("Use case: U01 Add Patient Detail")])]
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_v("User inputs the command to add a patient's contact details")]),_v(" "),_c('li',[_v("System validates the input fields.")]),_v(" "),_c('li',[_v("System check to confirm patient does not exist")]),_v(" "),_c('li',[_v("System adds the patient's contact details to the contact list.")]),_v(" "),_c('li',[_v("System displays a success message")]),_v(" "),_c('li',[_v("System updates the contact list to reflect the new entry")])])}
+with(this){return _c('ol',[_c('li',[_v("User inputs the command to add a patient's contact details.")]),_v(" "),_c('li',[_v("System validates the input fields.")]),_v(" "),_c('li',[_v("System check to confirm patient does not exist.")]),_v(" "),_c('li',[_v("System adds the patient's contact details to the contact list.")]),_v(" "),_c('li',[_v("System displays a success message.")]),_v(" "),_c('li',[_v("System updates the contact list to reflect the new entry.")])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. The input fields are invalid")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("2a1. System display an error message")])]),_v(" "),_c('li',[_c('p',[_v("2a2. System request for correct data.")])]),_v(" "),_c('li',[_c('p',[_v("2a3. User enters new data.")]),_v(" "),_c('p',[_v("Steps 2a1-2a3 are repeated until the data entered are correct.\nUse case resumes from step 3.")])])])]),_v(" "),_c('li',[_c('p',[_v("3a. Patient exists in contact details")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("3a1. System System display an error message.")]),_v(" "),_c('p',[_v("Use case ends.")])])])])])}
+with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. The input fields are invalid")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("2a1. System display an error message.")])]),_v(" "),_c('li',[_c('p',[_v("2a2. System request for correct data.")])]),_v(" "),_c('li',[_c('p',[_v("2a3. User enters new data.")]),_v(" "),_c('p',[_v("Steps 2a1-2a3 are repeated until the data entered are correct.\nUse case resumes from step 3.")])])])]),_v(" "),_c('li',[_c('p',[_v("3a. Patient exists in contact details")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("3a1. System display an error message.")]),_v(" "),_c('p',[_v("Use case ends.")])])])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Use case: U02 Delete Patient Detail")])])}
@@ -248,13 +248,13 @@ with(this){return _c('p',[_c('strong',[_v("Use case: U02 Delete Patient Detail")
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_v("User inputs the command to delete a patient's contact details")]),_v(" "),_c('li',[_v("System validates the input fields.")]),_v(" "),_c('li',[_v("System check to confirm patient exists")]),_v(" "),_c('li',[_v("System deletes the patient's contact details from the contact list.")]),_v(" "),_c('li',[_v("System displays a success message")]),_v(" "),_c('li',[_v("System updates the contact list to exclude the deleted patient")])])}
+with(this){return _c('ol',[_c('li',[_v("User inputs the command to delete a patient's contact details.")]),_v(" "),_c('li',[_v("System validates the input fields.")]),_v(" "),_c('li',[_v("System check to confirm patient exists")]),_v(" "),_c('li',[_v("System confirms the deletion with the user.")]),_v(" "),_c('li',[_v("System deletes the patient's contact details from the contact list.")]),_v(" "),_c('li',[_v("System displays a success message.")]),_v(" "),_c('li',[_v("System updates the contact list to exclude the deleted patient.")])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. The input fields are invalid")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("2a1. System display an error message")])]),_v(" "),_c('li',[_c('p',[_v("2a2. System request for correct data.")])]),_v(" "),_c('li',[_c('p',[_v("2a3. User enters new data.")]),_v(" "),_c('p',[_v("Steps 2a1-2a3 are repeated until the data entered are correct.\nUse case resumes from step 3.")])])])]),_v(" "),_c('li',[_c('p',[_v("3a. Patient does not exist in contact details")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("3a1. System System display an error message.")]),_v(" "),_c('p',[_v("Use case ends.")])])])])])}
+with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. The input fields are invalid")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("2a1. System display an error message.")])]),_v(" "),_c('li',[_c('p',[_v("2a2. System request for correct data.")])]),_v(" "),_c('li',[_c('p',[_v("2a3. User enters new data.")]),_v(" "),_c('p',[_v("Steps 2a1-2a3 are repeated until the data entered are correct.\nUse case resumes from step 3.")])])])]),_v(" "),_c('li',[_c('p',[_v("3a. Patient does not exist in contact details")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("3a1. System display an error message.")]),_v(" "),_c('p',[_v("Use case ends.")])])])]),_v(" "),_c('li',[_c('p',[_v("4a. User does not confirm deletion")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("4a1. System display a message indicating that the deletion was canceled.")]),_v(" "),_c('p',[_v("Use case ends.")])])])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Use case: U03 Add Patient risk")])])}
@@ -269,7 +269,7 @@ with(this){return _c('ol',[_c('li',[_v("User inputs the command to add a risk le
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. The input fields are invalid")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("2a1. System display an error message")])]),_v(" "),_c('li',[_c('p',[_v("2a2. System request for correct data.")])]),_v(" "),_c('li',[_c('p',[_v("2a3. User enters new data.")]),_v(" "),_c('p',[_v("Steps 2a1-2a3 are repeated until the data entered are correct.\nUse case resumes from step 3.")])])])]),_v(" "),_c('li',[_c('p',[_v("3a. Patient does not exist in contact details")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("3a1. System System display an error message.")]),_v(" "),_c('p',[_v("Use case ends.")])])])])])}
+with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. The input fields are invalid")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("2a1. System display an error message.")])]),_v(" "),_c('li',[_c('p',[_v("2a2. System request for correct data.")])]),_v(" "),_c('li',[_c('p',[_v("2a3. User enters new data.")]),_v(" "),_c('p',[_v("Steps 2a1-2a3 are repeated until the data entered are correct.\nUse case resumes from step 3.")])])])]),_v(" "),_c('li',[_c('p',[_v("3a. Patient does not exist in contact details")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("3a1. System display an error message.")]),_v(" "),_c('p',[_v("Use case ends.")])])])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Use case: U04 Add Session Log")])])}
@@ -278,13 +278,13 @@ with(this){return _c('p',[_c('strong',[_v("Use case: U04 Add Session Log")])])}
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_v("User inputs the command to add a session log to the patient detail.")]),_v(" "),_c('li',[_v("System validates the input fields.")]),_v(" "),_c('li',[_v("System check to confirm patient exist")]),_v(" "),_c('li',[_v("System adds the session log to the patient detail.")]),_v(" "),_c('li',[_v("System displays a success message.")]),_v(" "),_c('li',[_v("System updates the patient detail to reflect the new entry.")])])}
+with(this){return _c('ol',[_c('li',[_v("User inputs the command to add a session log to the patient detail.")]),_v(" "),_c('li',[_v("System validates the input fields.")]),_v(" "),_c('li',[_v("System check to confirm patient exist.")]),_v(" "),_c('li',[_v("System adds the session log to the patient detail.")]),_v(" "),_c('li',[_v("System displays a success message.")]),_v(" "),_c('li',[_v("System updates the patient detail to reflect the new entry.")])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. The input fields are invalid")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("2a1. System display an error message")])]),_v(" "),_c('li',[_c('p',[_v("2a2. System request for correct data.")])]),_v(" "),_c('li',[_c('p',[_v("2a3. User enters new data.")]),_v(" "),_c('p',[_v("Steps 2a1-2a3 are repeated until the data entered are correct.\nUse case resumes from step 3.")])])])]),_v(" "),_c('li',[_c('p',[_v("3a. Patient does not exist in contact details")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("3a1. System display an error message.")]),_v(" "),_c('p',[_v("Use case ends.")])])])])])}
+with(this){return _c('ul',[_c('li',[_c('p',[_v("2a. The input fields are invalid")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("2a1. System display an error message.")])]),_v(" "),_c('li',[_c('p',[_v("2a2. System request for correct data.")])]),_v(" "),_c('li',[_c('p',[_v("2a3. User enters new data.")]),_v(" "),_c('p',[_v("Steps 2a1-2a3 are repeated until the data entered are correct.\nUse case resumes from step 3.")])])])]),_v(" "),_c('li',[_c('p',[_v("3a. Patient does not exist in contact details")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("3a1. System display an error message.")]),_v(" "),_c('p',[_v("Use case ends.")])])])])])}
 },function anonymous(
 ) {
 with(this){return _c('h3',{attrs:{"id":"non-functional-requirements"}},[_v("Non-Functional Requirements"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#non-functional-requirements","onclick":"event.stopPropagation()"}})])}
@@ -323,6 +323,6 @@ with(this){return _c('h3',{attrs:{"id":"saving-data"}},[_v("Saving data"),_c('a'
 with(this){return _c('ol',[_c('li',[_c('p',[_v("Dealing with missing/corrupted data files")]),_v(" "),_c('ol',[_c('li',[_c('em',[_v("{explain how to simulate a missing/corrupted file, and the expected behavior}")])])])]),_v(" "),_c('li',[_c('p',[_c('em',[_v("{ more test cases …​ }")])])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Fri, 4 Oct 2024, 15:32:04 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Fri, 4 Oct 2024, 15:48:47 GMT+8]")])])])}
 }];
   
