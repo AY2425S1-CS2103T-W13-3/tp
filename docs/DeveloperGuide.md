@@ -310,8 +310,6 @@ Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unli
 | `*`      | user    | undo progress using command                                    | easily correct errors                                             |
 | `*`      | user    | get reminder for my next appointment                           | be reminded in case i forget                                      |
 
-*{More to be added}*
-
 ### Use cases
 
 (For all use cases below, the **System** is the `AddressBook` and the **Actor** is the `user`, unless specified otherwise)
