@@ -22,7 +22,6 @@ import seedu.address.model.AddressBook;
 import seedu.address.model.Model;
 import seedu.address.model.ReadOnlyAddressBook;
 import seedu.address.model.ReadOnlyUserPrefs;
-import seedu.address.model.log.Log;
 import seedu.address.model.person.IdentityNumber;
 import seedu.address.model.person.Person;
 import seedu.address.testutil.PersonBuilder;
@@ -155,14 +154,6 @@ public class AddCommandTest {
             throw new AssertionError("This method should not be called.");
         }
 
-        /**
-         * Returns an unmodifiable view of the filtered log list
-         */
-        @Override
-        public ObservableList<Log> getFilteredLogList() {
-            throw new AssertionError("This method should not be called.");
-        }
-
         @Override
         public void updateFilteredPersonList(Predicate<Person> predicate) {
             throw new AssertionError("This method should not be called.");
@@ -174,17 +165,7 @@ public class AddCommandTest {
          * @param identityNumber
          */
         @Override
-        public void updateFilteredPersonListById(IdentityNumber identityNumber) {
-            throw new AssertionError("This method should not be called.");
-        }
-
-        @Override
-        public void updateFilteredLogList(Predicate<Log> predicate) {
-            throw new AssertionError("This method should not be called.");
-        }
-
-        @Override
-        public void updateFilteredLogListById(IdentityNumber identityNumber) {
+        public void updateFilteredLogsListById(IdentityNumber identityNumber) {
             throw new AssertionError("This method should not be called.");
         }
 

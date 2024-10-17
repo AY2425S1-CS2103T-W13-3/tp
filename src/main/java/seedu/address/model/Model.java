@@ -5,7 +5,6 @@ import java.util.function.Predicate;
 
 import javafx.collections.ObservableList;
 import seedu.address.commons.core.GuiSettings;
-import seedu.address.model.log.Log;
 import seedu.address.model.person.IdentityNumber;
 import seedu.address.model.person.Person;
 
@@ -82,9 +81,6 @@ public interface Model {
     /** Returns an unmodifiable view of the filtered person list */
     ObservableList<Person> getFilteredPersonList();
 
-    /** Returns an unmodifiable view of the filtered log list */
-    ObservableList<Log> getFilteredLogList();
-
     /**
      * Updates the filter of the filtered person list to filter by the given {@code predicate}.
      * @throws NullPointerException if {@code predicate} is null.
@@ -95,10 +91,5 @@ public interface Model {
      * Updates the filter of the logs list to filter by the given {@code identityNumber}.
      * @param identityNumber
      */
-    void updateFilteredPersonListById(IdentityNumber identityNumber);
-
-    void updateFilteredLogListById(IdentityNumber identityNumber);
-
-    // DO NOT USE, added by ZR to prepare for future abstraction
-    void updateFilteredLogList(Predicate<Log> predicate);
+    void updateFilteredLogsListById(IdentityNumber identityNumber);
 }
