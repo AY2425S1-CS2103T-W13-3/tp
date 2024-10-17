@@ -5,8 +5,6 @@ import static seedu.address.commons.util.AppUtil.checkArgument;
 
 import java.util.Objects;
 
-import seedu.address.commons.util.ToStringBuilder;
-
 /**
  * Represents a log in the address book.
  */
@@ -48,8 +46,36 @@ public class Log {
     /**
      * Returns the appointmentDate of the session.
      */
-    public String getAppointmentDate() {
-        return appointmentDate.toString();
+    public AppointmentDate getAppointmentDate() {
+        return appointmentDate;
+    }
+
+    /**
+     * Return to string in the format "date|description" for JsonStorage
+     */
+    public String toStorageString() {
+        return appointmentDate.toString() + "|" + entry;
+    }
+
+    /**
+     * Converts a storage string into a {@code Log} object.
+     *
+     * @param storageString the string to convert, formatted as "datePart|descriptionPart"
+     * @return a {@code Log} object
+     * @throws IllegalArgumentException if the format is invalid
+     */
+    public static Log fromStorageString(String storageString) {
+        String[] parts = storageString.split("\\|");
+
+        if (parts.length != 2) {
+            throw new IllegalArgumentException("Invalid log format: " + storageString);
+        }
+
+        String datePart = parts[0].trim();
+        String descriptionPart = parts[1].trim();
+
+        AppointmentDate appointmentDate = new AppointmentDate(datePart);
+        return new Log(appointmentDate, descriptionPart);
     }
 
     /**
@@ -91,10 +117,9 @@ public class Log {
      */
     @Override
     public String toString() {
-        String truncatedEntry = entry.length() > 100 ? entry.substring(0, 100) : entry;
-        return new ToStringBuilder(this)
-                .add("Appointment Date", appointmentDate.toString())
-                .add("Entry", truncatedEntry)
-                .toString();
+        String truncatedEntry = entry.length() > 100
+                ? entry.substring(0, 100) + "..."
+                : entry;
+        return String.format("Log{Appointment Date=%s, Entry=%s}", appointmentDate.toString(), truncatedEntry);
     }
 }
