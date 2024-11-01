@@ -118,6 +118,7 @@
         "locating-persons-by-name-find": "Locating persons by name: find",
         "deleting-a-person-delete": "Deleting a person : delete",
         "clearing-all-entries-clear": "Clearing all entries : clear",
+        "listing-session-logs-logs": "Listing Session logs: logs",
         "confirming-a-command-confirm": "Confirming a command : confirm",
         "canceling-a-command-cancel": "Canceling a command : cancel",
         "exiting-the-program-exit": "Exiting the program : exit",
