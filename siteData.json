@@ -121,6 +121,8 @@
         "confirming-a-command-confirm": "Confirming a command : confirm",
         "canceling-a-command-cancel": "Canceling a command : cancel",
         "listing-session-logs-logs": "Listing Session logs: logs",
+        "adding-a-log-addlog": "Adding a log: addlog",
+        "adding-a-log-entry-addentry": "Adding a log entry: addentry",
         "exiting-the-program-exit": "Exiting the program : exit",
         "saving-the-data": "Saving the data",
         "editing-the-data-file": "Editing the data file",
