@@ -116,7 +116,7 @@
         "adding-a-log-addlog": "Adding a log: addlog",
         "adding-a-log-entry-addentry": "Adding a log entry: addentry",
         "editing-a-patient-edit": "Editing a patient : edit",
-        "locating-patients-by-name-and-identity-number-find": "Locating patients by name and identity number: find",
+        "locating-patients-by-name-or-nric-find": "Locating patients by name or NRIC: find",
         "deleting-a-patient-delete": "Deleting a patient : delete",
         "clearing-all-entries-clear": "Clearing all entries : clear",
         "confirming-a-command-confirm": "Confirming a command : confirm",
