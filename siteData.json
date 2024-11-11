@@ -116,7 +116,7 @@
         "adding-a-log-addlog": "Adding a log: addlog",
         "adding-a-log-entry-addentry": "Adding a log entry: addentry",
         "editing-a-patient-edit": "Editing a patient : edit",
-        "locating-patients-by-name-find": "Locating patients by name: find",
+        "locating-patients-by-name-and-identity-number-find": "Locating patients by name and identity number: find",
         "deleting-a-patient-delete": "Deleting a patient : delete",
         "clearing-all-entries-clear": "Clearing all entries : clear",
         "confirming-a-command-confirm": "Confirming a command : confirm",
@@ -130,7 +130,8 @@
         "known-issues": "Known Issues",
         "command-summary": "Command summary",
         "additional-notes": "Additional Notes",
-        "sample-nrics": "Sample NRICs"
+        "sample-nrics": "Sample NRICs",
+        "future-updates": "Future Updates"
       },
       "headingKeywords": {}
     },
